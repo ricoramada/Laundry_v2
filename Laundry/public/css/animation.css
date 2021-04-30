@@ -1,0 +1,21 @@
+.container{
+  animation: ciut1 2s;
+}
+@keyframes ciut1 {
+  0%{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+.card-body{
+  animation: ciut 5s, opacity 10s;
+  opacity: 100%;
+}
+
+@keyframes ciut {
+  0%{
+    transform: translatey(-100px);
+    opacity: 0%;
+  }
+}
